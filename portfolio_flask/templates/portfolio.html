@@ -1,0 +1,218 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="portfolio">
+  <h2>Portfolio</h2>
+
+  <div class="card-main">
+    <ul class="cards">
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://elaineyang7.github.io/vegetarian_in_the_bay_area/index.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/vegetarian.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Vegetarian in the Bay Area</h3>
+            <hr>
+            <p class="card-text">I'm currently working on a website, sharing vegetarian recipes, vegetarian dishes of the restaurants in the Bay Area, and information for vegetarians.</p>
+            <ul class="keywords">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="timeline/index.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/stamps.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Handmade Rubber Stamps Memoir</h3>
+            <hr>
+            <p class="card-text">This vertical timeline shows some of my handmade rubber stamps. Used some CSS3 tricks and a bit of JavaScript to create some bounce animations. When the user scrolls to trigger the animation, and the new block enters the viewport.</p>
+            <ul class="keywords">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://elaineyang7.github.io/meowClock/index.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/meow_clock.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Meow Meow Clock</h3>
+            <hr>
+            <p class="card-text">JavaScript web app with interactive clocks that changes the cat’s image and message according to the events set by the user during the day and by clicking the Party Time button.</p>
+            <ul class="keywords">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://elaineyang7.github.io/todo_list/index.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/todo.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">To-Do List</h3>
+            <hr>
+            <p class="card-text">Using JavaScript to build a simply To-Do List App that lets users add, remove, and mark complete items.</p>
+            <ul class="keywords">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://elaineyang7.github.io/mapping/Map1.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/volcanoes.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Map of the Volcano and Population</h3>
+            <hr>
+            <p class="card-text">This map is to visualize volcano and population data of the United States. The locations of the volcanoes are marked, their colors set according to the elevation. Used GeoJSON to passed to the map as an overlay, and multiple layers can be visualized on the
+        same map.</p>
+            <ul class="keywords">
+              <li>Python</li>
+              <li>Folium</li>
+              <li>Pandas</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://elaineyang7.github.io/mapping/restaurant.html" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/favorite_restaurant.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">My Favorite Restaurant Map</h3>
+            <hr>
+            <p class="card-text">I'm currently working on a website, sharing vegetarian recipes, vegetarian dishes of the restaurants in the Bay Area, and information for vegetarians.</p>
+            <ul class="keywords">
+              <li>Python</li>
+              <li>Folium</li>
+              <li>Pandas</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://github.com/elaineyang7/Handwritten_Numbers_Recognition" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/MNIST_dataset.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Handwritten Numbers Recognition</h3>
+            <hr>
+            <p class="card-text">Used machine learning algorithms and data analysis to recognize the MNIST dataset of handwritten numbers by using Python libraries such as scikit-learn, NumPy, and Pandas.</p>
+            <ul class="keywords">
+              <li>Python</li>
+              <li>scikit-learn</li>
+              <li>NumPy</li>
+              <li>Pandas</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <a href="https://github.com/elaineyang7/numerical_analysis.git" target="_blank">
+          <div class="card-image">
+            <img src="{{url_for('static', filename='images/fig3xy.jpg')}}">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Dynamical Modelling of Extra-Solar Planetary System Kepler 16</h3>
+            <hr>
+            <p class="card-text">A binary star is a star system consisting of two stars orbiting around their common center of mass ,their systems are very important in astrophysics because calculations of their orbits allow the masses of their component stars to be directly
+    determined, which in turn allows other stellar parameters, such as radius and density, to be indirectly estimated.<br>
+    Used numerical analsis method, fourth-order Runge Kutta to simulate Kepler-16b (formally Kepler-16 (AB)-b), an extra-solar planet outside the Solar System.</p>
+            <ul class="keywords">
+              <li>C++</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <!--<a href="vegetarian_in_the_bay_area/index.html" target="_blank">-->
+          <div class="card-image">
+            <img src="">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Online Shopping Application</h3>
+            <hr>
+            <p class="card-text">Developed Java Swing GUI application with durable storage, basic account management, and e-commerce-like interactions.</p>
+            <ul class="keywords">
+              <li>Java</li>
+              <li>Swing</li>
+              <li>OOP</li>
+            </ul>
+          </div>
+          <!--</a>-->
+        </div>
+      </li>
+
+      <li class="cards-item">
+        <div class="card">
+          <!--<a href="vegetarian_in_the_bay_area/index.html" target="_blank">-->
+          <div class="card-image">
+            <img src="">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Marathon Race Runner</h3>
+            <hr>
+            <p class="card-text">Simulate a marathon race between participants. Learned how to implement multi-threading in Java and how
+to read data from XML files and derby databases.</p>
+            <ul class="keywords">
+              <li>Java</li>
+              <li>XML</li>
+              <li>derby databases</li>
+              <li>OOP</li>
+            </ul>
+          </div>
+          <!--</a>-->
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</div>
+{% endblock %}

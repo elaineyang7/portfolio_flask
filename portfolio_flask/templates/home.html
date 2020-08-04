@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+  <div class="home">
+    <h2><img src="{{url_for('static', filename='images/lamb.jpg')}}"><br>Hello!</h2>
+    <h3>I'm Elaine, a software engineer based in Los Altos, CA.</h3>
+    <div class="about-me-description">
+      <p>I majored in applied math but finding my passion for programming and love to to be creative through code. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+    </div>
+    <br>
+    <div class="about-me">
+      <p>
+        $ elaine.hometown<br>
+        Hsinchu, Taiwan<br>
+        <br>
+        $ elaine.education<br>
+        { "Certificate Program" : "UCSC Extension - Computer Programming"<br>
+        &nbsp;&nbsp;"Master's Degree" : "National Chiao Tung University - Applied Mathematics"<br>
+        &nbsp;&nbsp;"Bachelor's degree" : "National Hsinchu University of Education - Applied Mathematics" }<br>
+        <br>
+        $ elaine.resume<br>
+        <a href="Elaine-Yang-Resume.pdf" download>"Elaine-Yang-Resume.pdf"</a><br>
+        <br>
+        $ elaine.email<br>
+        <a href="elaineyyang7@gmail.com">"elaineyyang7@gmail.com"</a><br>
+        <br>
+        $ elaine.github<br>
+        <a href="https://github.com/elaineyang7">"elaineyang7"</a><br>
+        <br>
+        $ elaine.linkedin<br>
+        <a href="https://www.linkedin.com/in/elaine-yang-yuwen/">"Elaine Yang"</a><br>
+        <br>
+        $ elaine.latestWorkExperience<br>
+        { "company" : "Broadcom"<br>
+        &nbsp;&nbsp;"role" : "Software QA Engineer "}<br>
+        <br>
+        $ elaine.loves<br>
+        [ "carving rubber stamps", "travel", "hiking", "cats" ]<br>
+        <br>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
